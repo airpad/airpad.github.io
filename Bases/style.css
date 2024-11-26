@@ -1,0 +1,55 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: pink
+}
+h1{
+    color: black
+}
+h2{
+    color: yellow
+}
+h3{
+    color: darkorange
+}
+.perfil{
+    color: red;
+    background-color: pink;
+}
+.contenidoPerfil h3{
+    color: tomato;
+    background-color: black
+    
+}
+.contenidoPerfil{
+    background-color: grey;
+    padding: 15px;
+    margin: 12px;
+}
+h3.perfilAcademico{
+    color: tomato;
+    background-color: black;
+}
+.imgPresentacion{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin: 5%;
+    padding: 0px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+.contenidoPerfil{
+    background-color: grey;
+    padding: 15px;
+    margin: 12px;
+}
+.imgexperelax{
+    height: 150px;
+
+}
+.presentacion{
+    background-color: #afd9e2;
+    display: flex;
+}
