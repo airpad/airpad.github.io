@@ -1,0 +1,300 @@
+:root{
+    --titulos: #ffe600;  
+
+}
+body{
+    background-color: gray;
+    margin: 0px;
+    font-family: "Oswald", sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    border: solid red 2px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 120px;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+
+
+}
+
+.logo{
+    margin: 15px;
+}
+
+.main-menu{
+    /*background-color: blueviolet;*/
+    text-indent: 1em;
+    margin: 0px 0px 0px 5
+    0px;
+    width: 100%;
+}
+
+.nav{
+    /*background-color: azure*/
+    display: flex;
+    gap: 30 px;
+    text-transform:uppercase;
+}
+
+.nav li{
+    list-style-type:none;
+}
+
+.nav a{
+    text-decoration:none;
+    color: #44889908;
+}
+
+.nav a{
+    text-decoration:none;
+    color: white;
+}
+
+.nav a:hover{
+    color: var(--titulos)
+}
+
+.hero{
+    color: white;
+    background-color: black;
+    background-image: url(slide01.jpg);
+    background-position: top right;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+}
+
+.herocontent{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 200px auto;
+
+}
+
+.herotitle{
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.1em;
+    width: 60%;
+}
+
+.cta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.cta a{
+    box-sizing: content-box;
+    height: 40px;
+    width: 150px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#boton1{
+    background-color: var(--titulos)
+    color black
+}
+
+#boton1:hover{
+    background-color: blueviolet;
+    color: rgb(252, 252, 252);
+}
+
+#boton2{
+    border: solid white 2px;
+    color: white;
+}
+
+#boton2:hover{
+    border: solid white 2px;
+    color: black;
+    background-color: white;
+}
+
+.herotitle span, .box span{
+    color: var(--titulos)
+}
+
+.herotext{
+    text-align: justify;
+    width: 50%;
+    font-family: "poppins", sans-serif;
+    font-stretch: condensed;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+.cajas{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    /*margin: 20px auto;*/ 
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.box{
+    color: white;
+    background-color: white;
+    height: 370px;
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 20px 10px;
+}
+
+.box p{
+    margin: 0px;
+    padding: 10px 0px 20px 20px;
+    font-family: "poppins", sans-serif;
+    font-stretch: condensed;
+    line-height: 1.8em;
+    font-size: 0.8em;
+}
+
+.box h3{
+    margin: 0;
+    padding: 20px 0px 0px 20px;
+}
+
+.box1{
+    background-image: url(6A7A1305-scaled.jpg);
+    background-size: cover;
+}
+
+.box2{
+    background-image: url(box2.jpg);
+    background-size: cover;
+}
+
+.box3{
+    background-image: url(box3.jpg);
+    background-size: cover;
+}
+
+.about{
+    background-color: white;
+    display: flex;
+}
+
+.foto{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.foto img{
+    width: 70%;
+}
+
+.about-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 50px;
+}
+
+.about-title{
+    font-size: 2.5em;
+    font-weight: bold;
+    font-stretch: condensed;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+}
+.about-title::before{
+    content: '"';
+    color: var(--titulos);
+    font-size: 3em;
+    position: absolute;
+    top: -50px;
+    left: -25px;
+    z-index: -1;
+}
+
+.tag-line{
+    font-family: "poppins", sans-serif;
+    font-stretch: condensed;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+.about p{
+    font-family: "poppins", sans-serif;
+    font-stretch: condensed;
+    line-height: 2em;
+    font-size: 1em;
+    width: 80%;
+}
+
+.signature{
+    display: flex;
+    background-color: white;
+}
+
+.signature h5{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 0px;
+    line-height: 2em;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+
+.s1{
+    width: 50%;
+}
+.s1 p{
+    font-family: "Poppins", sans-serif;
+    font-stretch: condensed;
+    line-height: 1.5em;
+    font-size: 1em;
+    margin: 0;
+}
+
+.marco{
+    font-size: 150px;
+    position: absolute;
+    top: 130%;
+    left: 20px;
+    text-transform: uppercase;
+    opacity: .20;
+    text-align: center;
+}

@@ -1,0 +1,121 @@
+body{
+    background-color: yellow;
+    margin: 0;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: darkcyan;
+    display: flex;
+    width: 100vw;
+    height: 120px;
+    color: white;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header img{
+    height: 70px;
+}
+
+p{
+    margin: 0;
+    padding: 20px 0px;
+}
+
+main{
+    background-color: darkblue;
+    height: 500px;
+    
+}
+
+.suma{
+    display: flex;
+    height: 10px;
+    align-items: center;
+}
+
+form{
+    background-color: white;
+    width: 50vw;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+}
+
+.num{
+    display: flex;
+    height: 10px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.resultado input{
+    width: 150px;
+}
+
+.calcular{
+    margin: 10px;
+    width: 100px;
+    font-size: 12px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px red;
+    background-color: darkred;
+    color: white;
+    border: solid white 1px;
+    padding: 3px;
+}
+
+input{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: darkblue;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.perfil{
+    /* background-color: blue; */
+    width: 250px;
+}
+
+.copyright{
+    display: flex;
+    /* background-color: chartreuse; */
+    width: 300px;
+    align-items: center;
+    justify-content: space-around;
+}
+.perfil img{
+    height: 70%;
+    border-radius: 50%;
+    border: solid black 4px;
+}
+
+img{
+    height: 50%;
+}

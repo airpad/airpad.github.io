@@ -1,0 +1,30 @@
+body{
+    background-color: gray;
+    display: grid;
+    place-items: center;
+}
+.Calculadora{
+    background-color: red;
+    color: whitesmoke;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.pantalla{
+    grid-column: 1/5;
+    text-align: end;
+    color: white;
+    background-color: black;
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+    padding: 30px;
+}
+.btn{
+    color: white;
+    background-color: black;
+    border-bottom: 70px;
+}
+#igual{
+    grid-column: span 2;
+}
