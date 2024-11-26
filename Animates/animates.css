@@ -1,0 +1,54 @@
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.pulsar{
+    width: 60px;
+    height: 60px;
+    background: rgba(242, 255, 0, 0.901);
+    position: relative;
+    border-radius: 50%;
+
+    animation: mover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+img{
+    height: 50px;
+}
+
+.luigi{
+    animation-name: mover;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes mover{
+    from{
+        transform: translateX(0%) scale(1);
+    
+    }
+    to{
+        transform: translateX(200px);
+
+    }
+}
+
+@keyframes crecer{
+    0%{transform: scale(1);}
+    100%{transform: scale(1.5);}
+}
+
+@keyframes moverYEscalar{
+    0%{
+        transform: translateX(0) scale(1);
+    }
+    100%{
+        transform: translateX(100px) scale(1.5);
+    }
+}
